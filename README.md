@@ -6,11 +6,11 @@ To install and run the app locally, follow these steps:
 
 Clone the repository to your local machine.
 
-bash
+## bash
 Copy code
 git clone https://github.com/Mohamed-hanfy/PhotoEditor
 
-Usage
+## Usage
 1- Click on the "Choose File" button to upload a photo from your computer.
 
 2- Once the photo is uploaded, you can apply different filters to it using swap provided.
