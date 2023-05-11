@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+     
+</head>
+<body>
+     
+    <div class="container">
+        
+        <div class="img">
+            <div class="img-box">
+                <img id="img">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="upload">
+                <label for="upload">Upload</label>
+                <input type="file" id="upload">
+            </div>
+        </div>
+        <div class="filters">
+            <ul>
+                <li>
+                    <label for="saturate">Saturate</label>
+                    <input type="range" id="saturate" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="contrast">Contrast</label>
+                    <input type="range" id="contrast" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="brightness">Brightness</label>
+                    <input type="range" id="brightness" min="0" max="200" value="100">
+                </li>
+                <li>
+                    <label for="sepia">Sepia</label>
+                    <input type="range" id="sepia" min="0" max="200" value="0">
+                </li>
+                <li>
+                    <label for="grayscale">Grayscale</label>
+                    <input type="range" id="grayscale" step="0.1" min="0" max="1" value="0">
+                </li>
+                <li>
+                    <label for="blur">Blur</label>
+                    <input type="range" id="blur" step="0.1" min="0" max="10" value="0">
+                </li>
+                <li>
+                    <label for="hue-rotate">Hue Rotate</label>
+                    <input type="range" id="hue-rotate"  min="0" max="350" value="0">
+                </li>
+                <li>
+                    <a download="image" id="download">Download</a>
+                    <span onclick="resetValue()">Reset</span>
+                </li>
+            </ul>
+        </div>
+      
+    </div>
+   
+    <div class="social-media-bar">
+        <a href="https://web.facebook.com/profile.php?id=100084526298295" target="_blank" class="social-media-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/Mo7amedHM1" class="social-media-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-hanafy-2a680a249/" class="social-media-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
